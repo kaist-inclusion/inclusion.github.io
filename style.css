@@ -246,8 +246,12 @@ footer {
 }
 
 #footer-center {
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
+}
+
+#footer-center a {
+  color: white;
 }
 
 #footer-right {
