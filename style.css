@@ -76,6 +76,34 @@ button {
   margin-left: 40px;
 }
 
+.logo-img {
+  /* margin: auto; */
+  /* margin-left: auto;
+  margin-right: auto;
+  display: block; */
+  display: block;
+  margin: auto 0;
+  width: 300px;
+  float: right;
+}
+
+.logo-text {
+  float: left;
+  font-size: 25px;
+  font-weight: 500;
+  margin: auto 30px;
+  margin-top: 45px;
+  /* margin-left: 10px;
+  margin-top: 20px; */
+}
+
+.logo-inquiry-window {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 a.nav-item {
   text-decoration: none;
   color: white;
@@ -193,6 +221,11 @@ main {
   #schedule,
   #about {
     width: 90%;
+  }
+
+  .logo-img {
+    width: 50%;
+    height: auto;
   }
 }
 
@@ -591,17 +624,26 @@ footer {
   text-align: center;
   margin: auto;
 }
+.member-box ul {
+  margin-left: 15px;
+}
 
 #organization li {
   font-weight: 500;
   margin-top: 10px;
 }
-
+.button-oneline-box {
+  display: flex;
+  /* justify-content: center; */
+  gap: 10px;
+}
 .content-box {
   margin-top: 10px;
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  /* gap: 10px; */
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .item-box {
@@ -614,4 +656,193 @@ footer {
   margin-bottom: 10px;
   font-weight: 500;
   flex-grow: 1;
+}
+
+.news-item-box {
+  width: 30%;
+  background-color: #cbcbcb98;
+  color: black;
+  font-size: 16px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  flex-grow: 1;
+}
+
+/* Basic Card */
+
+.basic-card {
+  width: 300px;
+  position: relative;
+
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.basic-card .card-content {
+  padding: 30px;
+}
+
+.basic-card .card-title {
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.basic-card .card-text {
+  line-height: 1.6;
+}
+
+.basic-card .card-link {
+  padding: 25px;
+  width: -webkit-fill-available;
+}
+
+.basic-card .card-link a {
+  text-decoration: none;
+  position: relative;
+  padding: 10px 0px;
+}
+
+.basic-card .card-link a:after {
+  top: 30px;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  width: 0;
+
+  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  -moz-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  -o-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.basic-card .card-link a:hover:after {
+  width: 100%;
+  left: 0;
+}
+.basic-card-light {
+  border: 1px solid #eee;
+}
+
+.basic-card-light .card-title,
+.basic-card-light .card-link a {
+  color: #636363;
+}
+
+.basic-card-light .card-text {
+  color: #7b7b7b;
+}
+
+.basic-card-light .card-link {
+  border-top: 1px solid #eee;
+}
+
+.basic-card-light .card-link a:after {
+  background: #636363;
+}
+
+/* Yellow Card */
+
+.card {
+  width: 280px;
+  margin: 1%;
+  /* position: relative; */
+  padding: 20px;
+  border-radius: 8px;
+  transition: 0.3s all;
+  box-shadow: 0 2px 5px 0 rgba(3, 6, 26, 0.15);
+  /* text-align: center; */
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card h3 {
+  font-weight: 500;
+}
+.card-yellow {
+  background: #ffda84;
+  /* background: rgb(255, 166, 0); */
+  color: black;
+}
+.card-green {
+  background: #dceeb6;
+  color: black;
+}
+.card-blue {
+  background: #b6e8ee;
+  color: black;
+}
+
+.card-purple {
+  background: #e2d2f0;
+  color: black;
+}
+.card-grey {
+  background: #dde8ea;
+  color: black;
+}
+
+.button-small {
+  /* margin-top: 20px; */
+  /* position: absolute; */
+  /* bottom: 10px; */
+  margin-left: -5px;
+  /* left: 0;
+  right: 0; */
+  text-align: center;
+  /* left: 80px; */
+  font-size: 14px;
+  color: white;
+  background: rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10000px;
+  transition: 0.3s all;
+}
+
+.button-small:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: #2e2e2e;
+}
+
+.notice-title {
+  cursor: pointer;
+  font-size: 18px;
+  /* text-decoration: underline; */
+}
+.notice-content {
+  margin-top: 5px;
+  padding: 10px 20px;
+  display: none;
+  /* max-height: 0; */
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.notice-title:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  /* float: right; */
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.session-info a {
+  color: black;
+}
+
+.card ul {
+  margin-left: 10px;
 }
