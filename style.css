@@ -119,7 +119,7 @@ button {
   margin-right: auto;
   display: block; */
   display: block;
-  margin: auto 0;
+  margin: auto 15;
   width: 300px;
   float: right;
 }
@@ -886,15 +886,19 @@ footer {
 }
 
 .notice-title:after {
-  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  /* content: "\02795"; Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: white;
   /* float: right; */
   margin-left: 5px;
 }
 
+.notice-title i {
+  color: rgb(255, 197, 115);
+}
+
 .active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  /* content: "\02796;"; Unicode character for "minus" sign (-) */
 }
 
 .session-info a {
