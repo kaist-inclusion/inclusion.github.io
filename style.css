@@ -262,7 +262,7 @@ main {
     padding-top: 0px;
     padding-bottom: 0px;
     position: inherit;
-    /* display: block; */
+    display: block;
     /* position: absolute; */
     /* background-color: #f1f1f1; */
     /* min-width: 160px; */
@@ -631,6 +631,11 @@ footer {
   margin-top: 4px;
   /* margin-bottom: 5px; */
   text-align: center;
+}
+
+.member-date-text {
+  /* background-color: rgb(255, 244, 199); */
+  background-color: #fef5da;
 }
 
 .member-image {
