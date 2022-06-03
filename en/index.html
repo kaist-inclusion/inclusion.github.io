@@ -18,7 +18,14 @@
         <div id="nav-hamburger" onclick="onClickNavButton()">MENU</div>
         <div id="nav-container">
             <a href="index.html" class="nav-item" style="color: rgb(255, 197, 115);">Home</a>
-            <a href="news.html" class="nav-item">News</a>
+            <div class="dropdown">
+                <a href="news.html" class="nav-item" class="nav-item">News</a>
+                <div class="dropdown-content">
+                    <a href="news.html">Notice</a>
+                    <a href="activity.html">Activities</a>
+                    <a href="media.html">Media</a>
+                </div>
+            </div>
             <a href="people.html" class="nav-item">People</a>
             <a href="archive.html" class="nav-item">Archive</a>
             <a href="inquiry.html" class="nav-item">Inquiry</a>
@@ -38,21 +45,17 @@
     <main>
         <div id="main">
             <div id="intro" class="infobox">
-                <div class="box-title" style="margin-bottom: 10px;">The KAIST Committee on Social Inclusion is an
-                    advisory body under the direct control of the Vice-Chancellor, with the goal of fostering a culture
-                    that respects diversity and inclusiveness within KAIST through communication among all members of
-                    KAIST.</div>
+
+                <div class="box-title" style="margin-bottom: 10px;">The KAIST Inclusiveness Committee is an advisory
+                    body under the direct control of the Vice-Chancellor, established in 2017 to create a
+                    culture that embraces diversity on campus.</div>
                 <div class="box-content">
-                    The purpose of the KAIST Committee on Social Inclusion is to create a culture that respects
-                    diversity and inclusion within the school through communication among all members. <br>
-                    We are trying to create a safe campus so that we understand each other and each member can lead a
-                    happy life without being hated, discriminated against, or harmed for any reason, such as gender,
-                    religion, disability, race, or sexual orientation.
-                    <br> We hope that members who are in trouble or need help can feel solidarity and comfort by having
-                    someone they can talk to without being judged for any reason.
+                    We aim for a campus where everyone can live happily without hate and discrimination based on gender,
+                    religion, race, physical disability, sexual orientation, etc. <br>
+                    We are always open to discuss ways to make it happen together and to help members in need.
                 </div>
                 <div style="text-align: center; margin-bottom: 20px;">
-                    <a href="./news.html"><button class="button-dark" id="main-button">Click here for recent
+                    <a href="./activity.html"><button class="button-dark" id="main-button">Click here for recent
                             activities</button></a>
                 </div>
 
@@ -63,7 +66,7 @@
     <footer>
         <div id="footer-center">
             <div><a href="./../index.html">Korean</a> | <a href="./index.html">English</a></div>
-            <div>©The KAIST Committee on Social Inclusion 2022</div>
+            <div class="footer-logo">©The KAIST Committee on Social Inclusion 2022</div>
         </div>
     </footer>
 

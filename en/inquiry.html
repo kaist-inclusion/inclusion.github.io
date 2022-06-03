@@ -19,7 +19,14 @@
         <div id="nav-hamburger" onclick="onClickNavButton()">MENU</div>
         <div id="nav-container">
             <a href="index.html" class="nav-item">Home</a>
-            <a href="news.html" class="nav-item">News</a>
+            <div class="dropdown">
+                <a href="news.html" class="nav-item" class="nav-item">News</a>
+                <div class="dropdown-content">
+                    <a href="news.html">Notice</a>
+                    <a href="activity.html">Activities</a>
+                    <a href="media.html">Media</a>
+                </div>
+            </div>
             <a href="people.html" class="nav-item">People</a>
             <a href="archive.html" class="nav-item">Archive</a>
             <a href="inquiry.html" class="nav-item" style="color: rgb(255, 197, 115);">Inquiry</a>
@@ -69,7 +76,7 @@
     <footer>
         <div id="footer-center">
             <div><a href="./../inquiry.html">Korean</a> | <a href="./inquiry.html">English</a></div>
-            <div>©The KAIST Committee on Social Inclusion 2022</div>
+            <div class="footer-logo">©The KAIST Committee on Social Inclusion 2022</div>
         </div>
     </footer>
     <script src="./../interaction.js"></script>

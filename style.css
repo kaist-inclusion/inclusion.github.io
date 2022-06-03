@@ -66,7 +66,7 @@ button {
   height: 60px;
   position: sticky;
   top: 0;
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
   z-index: 1;
 }
 
@@ -823,7 +823,7 @@ footer {
 .notice-content {
   margin-top: 5px;
   padding: 10px 20px;
-  display: none;
+  display: block;
   /* max-height: 0; */
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -849,4 +849,44 @@ footer {
 
 .card ul {
   margin-left: 10px;
+}
+
+.dropbtn {
+  /* color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none; */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.footer-logo {
+  margin-top: 10px;
 }
