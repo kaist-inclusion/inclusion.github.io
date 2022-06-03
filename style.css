@@ -71,7 +71,7 @@ button {
 }
 
 #home-logo {
-  width: 60px;
+  width: 80px;
   height: auto;
   margin-left: 40px;
 }
@@ -114,7 +114,8 @@ a.nav-item {
 }
 
 a.nav-item:hover {
-  border-bottom: thistle solid 1px;
+  /* border-bottom: thistle solid 1px; */
+  color: rgb(255, 197, 115);
 }
 
 #banner {
@@ -692,7 +693,7 @@ footer {
 
 .basic-card .card-title {
   font-size: 25px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 .basic-card .card-text {
@@ -864,23 +865,30 @@ footer {
 }
 
 .dropdown-content {
+  /* margin-top: 10px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: black;
+  /* background-color: #f1f1f1; */
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  /* left: 60; */
 }
 
 .dropdown-content a {
   color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  /* background-color: #ddd; */
+  color: rgb(255, 197, 115);
 }
 
 .dropdown:hover .dropdown-content {
