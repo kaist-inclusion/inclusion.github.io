@@ -924,3 +924,9 @@ footer {
 .footer-logo {
   margin-top: 10px;
 }
+
+.temporal {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
