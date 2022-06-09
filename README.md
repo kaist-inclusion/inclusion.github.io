@@ -1,2 +1,3 @@
 # inclusion.github.io
-Website for The KAIST Committee on Social Inclusion
+
+Website for KAIST Social Inclusion Committee
