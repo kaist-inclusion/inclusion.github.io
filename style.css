@@ -225,6 +225,10 @@ main {
 @media screen and (max-width: 768px) {
   /*Navigation*/
 
+  a.nav-item {
+    color: white;
+  }
+
   #navigation {
     display: flex;
     justify-content: space-between;
@@ -241,7 +245,7 @@ main {
     display: block;
     margin-right: 12px;
     cursor: pointer;
-    color: white;
+    color: black;
   }
 
   #nav-container {
@@ -934,6 +938,13 @@ footer {
 }
 
 .intro-video {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.main-index-button {
   display: flex;
   flex-direction: row;
   gap: 20px;
